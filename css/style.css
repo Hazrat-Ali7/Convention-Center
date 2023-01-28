@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+/* common css end  */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* custom card  */
+
+.custom_card:hover{
+    background-color: #19cc72;
+    color: #fff;
+    transition: .5s;
+    border-radius: 10px;
+    cursor: pointer;
+    
+
+}
+/* little button  */
+
+.little_btn{
+    background-color: rgb(0, 255, 64);
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px 10px;
+    position: relative;
+    top: -50px;
+    left: 170px;
+    
+}
+/* custom footer  */
+
+.custom_footer_row{
+    display: flex;
+    align-items: center;
+    
+}
+.custom_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
